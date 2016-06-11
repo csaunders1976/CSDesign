@@ -1,3 +1,51 @@
+////// Bootstrap ///////////////////
+
+*** Headings ***
+
+<h1>h1. Bootstrap heading <small>Secondary text</small></h1>
+<h2>h2. Bootstrap heading <small>Secondary text</small></h2>
+<h3>h3. Bootstrap heading <small>Secondary text</small></h3>
+<h4>h4. Bootstrap heading <small>Secondary text</small></h4>
+<h5>h5. Bootstrap heading <small>Secondary text</small></h5>
+<h6>h6. Bootstrap heading <small>Secondary text</small></h6>
+
+*** Jumbotron ***
+
+<div class="jumbotron">
+  <h1>Hello, world!</h1>
+  <p>...</p>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+</div>
+
+*** Columns ***
+// Must be in container
+<div class="row">
+        <div class="col-md-2">.col-md-1</div>
+        <div class="col-md-2">.col-md-1</div>
+        <div class="col-md-2">.col-md-1</div>
+        <div class="col-md-2">.col-md-1</div>
+        <div class="col-md-2">.col-md-1</div>
+        <div class="col-md-2">.col-md-1</div>
+    </div>
+
+*** Images ***
+
+<img src="..." class="img-responsive" alt="Responsive image">
+
+<img src="..." alt="..." class="img-rounded">
+<img src="..." alt="..." class="img-circle">
+<img src="..." alt="..." class="img-thumbnail">
+
+*** Thumbnails ***
+
+<div class="row">
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="..." alt="...">
+    </a>
+  </div>
+  ...
+</div>
 
 ////// Spin Up Information //////////
 
